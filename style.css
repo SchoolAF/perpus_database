@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    color: #CFCFCF;
+    margin: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.buxx_container {
+    margin-left: 75px;
+    margin-right: 75px;    
+}
