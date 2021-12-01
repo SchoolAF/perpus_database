@@ -13,10 +13,14 @@ include "koneksi.php";
     <link rel="stylesheet" href="style.css" />
     <!-- Import icon CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
-    <div class="buxx_container">
+    <div class="container">
     <h1>Data Buku</h1>
     <table border="1" class="table table-dark">
     <tr>
@@ -35,38 +39,32 @@ include "koneksi.php";
 
     <p id="pesan"></p>
     <center>
-    <table>
-    <br>
-        <tr>
-            <label for="kd_buku">Kode Buku</label>
-            <input id="kd_buku" style="width: 25%;" type="text" class="form-control" name="kd_buku">
-        </tr>
         <br>
-        <tr>
-            <label for="nama_buku">Judul Buku</label>
-            <input id="nama_buku" type="text" style="width: 25%;" class="form-control" name="nama_buku">
-        </tr>
-        <br>
-        <tr>
-            <label for="pengarang">Pengarang Buku</label>
-            <input id="pengarang" type="text" style="width: 25%;" class="form-control" name="pengarang">
-        </tr>
-        <br>
-        <tr>
-            <label for="thn_terbit">Tahun Terbit Buku</label>
-            <input id="thn_terbit" type="text" style="width: 25%;" class="form-control" name="thn_terbit">
-        </tr>
-        <br>
-        <tr>
-            <label for="jumlah">Jumlah Buku</label>
-            <input id="jumlah" type="text" style="width: 25%;" class="form-control" name="jumlah">
-        </tr>
-        <tr>
-            <br>
-            <button class="btn btn-outline-light" id="tombolTambah" onclick="tambahdata()">Submit Data</button>
-            <!-- <button class="btn btn-outline-light" id="tombolUpdate" onclick="updatedata()">Update Data</button> -->
-        </tr>
-    </table>
+        <table>
+            <div class="container">
+                <div class="input-field col s6">
+                    <input style="color:white;" id="kd_buku" style="width: 7%;" type="text" class="validate" name="kd_buku">
+                    <label for="kd_buku">Kode Buku</label>
+                </div>
+                <div class="input-field col s6">
+                    <input style="color:white;" id="nama_buku" style="width: 7%;" type="text" class="validate" name="nama_buku">
+                    <label for="nama_buku">Judul Buku</label>
+                </div>
+                <div class="input-field col s6">
+                    <input style="color:white;" id="pengarang" style="width: 7%;" type="text" class="validate" name="pengarang">
+                    <label for="pengarang">Pengarang Buku</label>
+                </div>
+                <div class="input-field col s6">
+                    <input style="color:white;" id="thn_terbit" style="width: 7%;" type="text" class="validate" name="thn_terbit">
+                    <label for="thn_terbit">Tahun Terbit</label>
+                </div>
+                <div class="input-field col s6">
+                    <input style="color:white;" id="jumlah" style="width: 7%;" type="text" class="validate" name="jumlah">
+                    <label for="jumlah">Jumlah Buku</label>
+                </div>
+                <button id="tombolTambah" onclick="window.location.reload();tambahdata()" class="btn waves-effect waves" type="submit" name="action">Submit</button>
+              </div>
+        </table>
     </center>
 
     <script type="text/javascript">

@@ -16,3 +16,7 @@ label {
     margin-left: 75px;
     margin-right: 75px;    
 }
+
+.form_textbox {
+    background: black;
+}
