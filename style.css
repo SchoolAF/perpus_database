@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    color: #CFCFCF;
+    margin: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.buxx_container {
+    margin-left: 75px;
+    margin-right: 75px;    
+}
+
+.form_textbox {
+    background: black;
+}
+
+h2 {
+    color: #191c1a;
+}
+
+img {
+    width: 15em;
+}
+
+.login {
+    padding: 1em;
+    margin: 2em auto;
+    width: 17em;
+    background: #8FF8BF
+    border-radius: 25px;
+}
+
+label {
+    font-size: 10pt;
+    color: #191c1a;
+}
+
+input[type="text"]
+input[type="password"]
+textarea {
+    padding: 8px;
+    padding-top: 100px;
+    width: 95%;
+    background: darkgreen;
+    border: 0;
+    font-size: 10pt;
+}
