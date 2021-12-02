@@ -22,6 +22,7 @@ include "koneksi.php";
 <body>
     <div class="container">
     <h1><b><i>databuku!</i></b></h1>
+    <span>Data buku pinjaman di Arcadia Linrary</span>
     <table border="1" class="table table-dark">
     <tr>
         <th>NO</th>
