@@ -1,0 +1,31 @@
+# ArcadiaLibrary
+
+A PHP based web integrated with MySQL that allows you to add data right from the web.
+
+## Usage
+
+- Clone this repository to root folder of your web server application directory.
+```
+git clone https://github.com/SchoolAF/perpus_database
+```
+
+- Import SQL from https://github.com/SchoolAF/perpus_db to your phpmyadmin/myswl
+
+- Login woth user ```admin``` and password ```@Liffathur5```
+
+## Credits
+
+- https://vincentgarreau.com/particles.js/
+- https://github.com/mattboldt/typed.js/
+
+## License
+```
+Copyright (C) 2021 Alif Fathur Muhammad Revan <herobuxx@kangyard.tech>
+          (C) 2021 SchoolAF under kangyard project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```

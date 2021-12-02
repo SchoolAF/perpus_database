@@ -37,7 +37,8 @@ include "koneksi.php";
         </div>
       </div>
     </nav>
-    <div class="container" id="particles-js">
+    <div id="particles-js">
+    <div class="container">
     <center>
     <br>   
     <br>
@@ -51,6 +52,7 @@ include "koneksi.php";
     <br>
     </center>
   </div>
+</div>
 </div>
 <script src="js/particles.js"></script>
 <script src="js/typed.js"></script>
