@@ -31,7 +31,7 @@ include "koneksi.php";
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link link-light active arc-accent-btn:hover" aria-current="page" href="login/login.php">Login</a>
+              <a class="nav-link link-light active arc-accent-btn:hover" aria-current="page" href="login">Login</a>
             </li>
           </ul>
         </div>

@@ -46,7 +46,7 @@
     </div>
 	<br>
 	<p>
-  		Already have an account?  <a href="login.php">Login now!</a>
+  		Already have an account?  <a href="../login">Login now!</a>
   	</p>
     </center>
   </div>
